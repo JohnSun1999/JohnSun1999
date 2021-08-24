@@ -1,0 +1,14 @@
+{
+    "name": "ui-sunjun-1999",
+    "version": "1.0.8",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "vue", "js", "css", "uni", "html"
+    ],
+    "author": "cly971113@163.com",
+    "license": "ISC"
+}

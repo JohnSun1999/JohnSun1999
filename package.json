@@ -1,0 +1,46 @@
+{
+    "name": "ui-sunjun-1999",
+    "version": "1.0.4",
+    "private": false,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "publish": "vue-cli-service build --target lib ./index.js --name ui-sunjun-1999 --dest UI-SJ"
+    },
+    "dependencies": {
+        "core-js": "^3.6.5",
+        "uglifyjs-webpack-plugin": "^2.2.0",
+        "ui-sunjun-1999": "^1.0.8",
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^7.0.0",
+        "node-sass": "^6.0.1",
+        "sass-loader": "^10.1.1"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/vue3-essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}
